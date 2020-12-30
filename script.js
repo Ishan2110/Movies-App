@@ -37,11 +37,11 @@ const main = document.querySelector("main");
 function display(event) {
 
     main.innerText = " ";
-    console.log(event);
-    console.log(event.results);
+//     console.log(event);
+//     console.log(event.results);
 
     event.results.forEach(element => {
-        console.log(element);
+//         console.log(element);
 
         const movieEL = document.createElement('div');
         movieEL.classList.add('movie');
